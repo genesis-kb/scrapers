@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and runtime files
+logs/
+*.log
+tmp/
+pids/
+*.pid
+*.pid.lock
+
+# Project specific data and outputs
+data/
+outputs/
+archive/
+
+# IDEs and Editors
+.idea/
+.vscode/
+.vs/

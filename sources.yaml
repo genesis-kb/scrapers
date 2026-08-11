@@ -1,0 +1,83 @@
+github:
+  - name: BIPs
+    script: default_github
+    domain: https://github.com/bitcoin/bips
+    url: https://github.com/bitcoin/bips.git
+  - name: BOLTs
+    script: default_github
+    domain: https://github.com/lightning/bolts
+    url: https://github.com/lightning/bolts.git
+  - name: BLIPs
+    script: default_github
+    domain: https://github.com/lightning/blips
+    url: https://github.com/lightning/blips.git
+  - name: BitcoinOps
+    domain: https://bitcoinops.org
+    url: https://github.com/bitcoinops/bitcoinops.github.io.git
+    directories: 
+      _posts/en/newsletters: post
+      _posts/en/podcast: podcast
+      _topics/en: topic
+  - name: BitcoinTranscripts
+    domain: https://btctranscripts.com
+    url: https://github.com/bitcointranscripts/bitcointranscripts.git
+  - name: PR-Review-Club
+    script: default_github
+    domain: https://bitcoincore.reviews/
+    url: https://github.com/bitcoin-core-review-club/website.git
+    directories: 
+      _posts: post
+  - name: BitcoinBook
+    domain: https://github.com/bitcoinbook/bitcoinbook
+    url: https://github.com/bitcoinbook/bitcoinbook.git
+  - name: BtcPhilosophy
+    script: default_github
+    domain: https://github.com/bitcoin-dev-philosophy/btcphilosophy
+    url: https://github.com/bitcoin-dev-philosophy/btcphilosophy.git
+  - name: GrokkingBtc
+    script: default_github
+    domain: https://github.com/kallerosenbaum/grokkingbitcoin
+    url: https://github.com/kallerosenbaum/grokkingbitcoin.git
+  - name: LnDocs
+    script: default_github
+    domain: https://github.com/t-bast/lightning-docs
+    url: https://github.com/t-bast/lightning-docs.git
+  - name: ProgrammingBtc
+    script: default_github
+
+    domain: https://github.com/jimmysong/programmingbitcoin
+    url: https://github.com/jimmysong/programmingbitcoin.git
+web:
+  - name: BitcoinTalk
+    domain: https://bitcointalk.org
+    url: https://bitcointalk.org/index.php?board=6.0
+    analyzer_config:
+      index_url: https://bitcointalk.org/index.php?board=6.0
+      resource_url: https://bitcointalk.org/index.php?topic=5499150.0
+  - name: StackExchange
+    domain: https://bitcoin.stackexchange.com
+    url: https://api.stackexchange.com
+  - name: BitcoinDevGuide
+    domain: https://developer.bitcoin.org
+    url: https://developer.bitcoin.org
+  - name: BitcoinWiki
+    domain: https://en.bitcoin.it
+    url: https://en.bitcoin.it/wiki/Main_Page
+  - name: Bitmex
+    domain: https://blog.bitmex.com
+    url: https://blog.bitmex.com/category/research/?lang=en_us
+  - name: Blockstream
+    domain: https://blog.blockstream.com
+    url: https://blog.blockstream.com
+  - name: LearnMeABitcoin
+    domain: https://learnmeabitcoin.com
+    url: https://learnmeabitcoin.com
+  - name: Oleganza
+    domain: https://blog.oleganza.com
+    url: https://blog.oleganza.com
+  - name: River
+    domain: https://river.com
+    url: https://river.com
+  - name: Rusty
+    domain: https://rusty.ozlabs.org
+    url: https://rusty.ozlabs.org

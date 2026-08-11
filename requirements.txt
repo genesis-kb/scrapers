@@ -1,0 +1,15 @@
+# Core
+pydantic>=2.0
+pyyaml
+python-dotenv
+loguru
+
+# HTTP & Scraping
+requests
+beautifulsoup4
+
+# Git (for GitHub scrapers)
+gitpython
+
+# Progress
+tqdm
